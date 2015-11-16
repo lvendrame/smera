@@ -1,0 +1,29 @@
+{
+  "name": "smera",
+  "version": "0.1.0",
+  "description": "simple MongoDB and Express REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvendrame/smera.git"
+  },
+  "keywords": [
+    "Express",
+    "MongoDB",
+    "REST",
+    "API"
+  ],
+  "author": "Luis Fernando Vendrame <lvendrame@gmail.com> (http://www.lvendrame.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lvendrame/smera/issues"
+  },
+  "homepage": "https://github.com/lvendrame/smera#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongoose": "^4.2.5"
+  }
+}
