@@ -55,9 +55,9 @@ Repository.prototype = {
     return deferred.promise;
   },
 
-  delete: function(item){
+  delete: function(id){
     var deferred = Promise.defer();
-    this.Model.findByIdAndRemove(item._id, function(err, deletedItem){
+    this.Model.findByIdAndRemove(id, function(err, deletedItem){
       if(err){
         deferred.reject(err);
       }else{
