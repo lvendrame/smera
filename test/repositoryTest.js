@@ -1,4 +1,4 @@
-var Repository = require('../src/repository');
+var Repository = require('../lib/repository');
 var model = require('./model');
 var mongoose = require('mongoose');
 

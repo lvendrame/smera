@@ -1,7 +1,7 @@
 {
   "name": "smera",
   "version": "0.1.0",
-  "description": "simple MongoDB and Express REST API",
+  "description": "Simple MongoDB and Express REST API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,5 +26,8 @@
     "express": "^4.13.3",
     "mongoose": "^4.2.5",
     "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.1"
   }
 }
