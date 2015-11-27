@@ -24,8 +24,7 @@
   "homepage": "https://github.com/lvendrame/smera#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "mongoose": "^4.2.5",
-    "q": "^1.4.1"
+    "mongoose": "^4.2.5"
   },
   "devDependencies": {
     "body-parser": "^1.14.1"

@@ -8,6 +8,9 @@ var modelRep = new Repository(model);
 
 var firstItem = null;
 var secondItem = null;
+var onError = function(err) {
+  console.log(err);
+};
 
 modelRep.create({
 	name : 'Teste Model',
@@ -21,27 +24,25 @@ modelRep.create({
   	age : 45,
     createdAt: new Date()
   });
-})
+}, onError)
 .then(function(item){
   secondItem = item;
   return modelRep.get();
-})
+}, onError)
 .then(function(items){
   console.log(items.length);
   return modelRep.getById(firstItem._id);
-})
+}, onError)
 .then(function(item){
   console.log(item);
   item.age = 22;
   return modelRep.update(item);
-})
+}, onError)
 .then(function(item){
   console.log(item);
   return modelRep.delete(secondItem);
 })
 .then(function(item){
   console.log(item);
-})
-.catch(function(err) {
-  console.log(err);
-});
+}, onError)
+;
