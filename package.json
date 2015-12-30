@@ -1,6 +1,6 @@
 {
   "name": "smera",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple MongoDB and Express REST API",
   "main": "index.js",
   "scripts": {
