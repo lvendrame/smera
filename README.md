@@ -62,6 +62,11 @@ var anotherMiddlewares = {
   all: authentication,
   get: permission,
   getById: [permission, blablabla]
+  /*
+  create: ...,
+  update: ...
+  delete: ...
+  */
 };
 
 app.use(smera('models', Model, anotherMiddlewares));
